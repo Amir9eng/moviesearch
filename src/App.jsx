@@ -1,10 +1,10 @@
-import './App.css';
-import Navbar from './components/Navbar';
+import './App.scss';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />    
+    <div className="App bg-white">
+         <NavBar />
     </div>
   );
 }
